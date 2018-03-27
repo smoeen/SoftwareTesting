@@ -1,0 +1,46 @@
+
+	CURRENT DATE : 02-10-16
+
+
+Total Number of Account opened Today : 8
+Total Number of Account Closed Today : 1
+
+
+----------------------------------- Transaction Details -----------------------------------
+
+
+
+					 ********** BASIC BANKING ACCOUNT **********
+	Total Amount Deposit : 12000.0		 Total Amount Withdrawal : 35000.0
+	-----------------------------------------------------------------------
+	Sno 	 CREDIT 	 DEBIT 				 DATE & TIME
+
+	1		2000.0							Sun Oct 02 23:06:08 PKT 2016
+	2		5000.0							Sun Oct 02 23:06:36 PKT 2016
+	3		5000.0							Sun Oct 02 23:06:56 PKT 2016
+	4					-15000.0			Sun Oct 02 23:07:39 PKT 2016
+	5					-10000.0			Sun Oct 02 23:08:57 PKT 2016
+	6					-10000.0			Sun Oct 02 23:09:42 PKT 2016
+	-----------------------------------------------------------------------
+
+
+
+					 ********** SAVING ACCOUNT **********
+	Total Amount Deposit : 0.0		 Total Amount Withdrawal : 1000.0
+	-----------------------------------------------------------------------
+	Sno 	 CREDIT 	 DEBIT 				 DATE & TIME
+
+	1					-1000.0			Sun Oct 02 23:08:25 PKT 2016
+	-----------------------------------------------------------------------
+
+
+
+					 ********** CURRENT ACCOUNT **********
+	Total Amount Deposit : 0.0		 Total Amount Withdrawal : 0.0
+	----------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------
+Total Deposit : 12000.0 Rupees		Total Withdrawal : 36000.0 Rupees
+
+			CLOSING BALANCE FOR TODAY : -24000.0

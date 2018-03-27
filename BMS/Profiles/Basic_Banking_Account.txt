@@ -1,0 +1,4 @@
+00000001,Affan,Ali,lahore,35404-3456,4\3\1996,M,Student
+00000007,Asif,Shafeeq,Mutan,35404-23456,6\12\1995,M,Student
+00000002,Nilesh,Kumar,Islamabad,35450-4523,4\5\1990,M,Student
+00000008,Arlsan,Malik,Islamabad,35404-1234,4\5\1990,M,Student
