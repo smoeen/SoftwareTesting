@@ -6,11 +6,16 @@
 
     <target name="compile">
         <mkdir dir="build/classes"/>
-        <javac srcdir="BMS" destdir="build/classes"/>
+        <javac srcdir="BMS" destdir="build/classes">
+        <classpath>
+            <pathelement path="lib/junit-4.10.jar"/>
+        </classpath>
+        </javac>
     </target>
 
     <target name="jar">
         <mkdir dir="build/jar"/>
+        <zipgroupfileset dir="lib" includes="junit-4.10.jar" />
         <jar destfile="build/jar/ManagementSystem.jar" basedir="build/classes">
             <manifest>
                 <attribute name="TestRunner" value="BMS.TestRunner"/>
