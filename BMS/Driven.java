@@ -64,7 +64,7 @@ public class Driven {
 		System.out.println("\t\t***********************************************");
 	}	
 	
-	public static void main (String [] args) {
+/*	public static void main (String [] args) {
 		Scanner input = new Scanner (System.in);
 		char cont = 'y';
 		int choice = 0;
@@ -197,5 +197,5 @@ public class Driven {
 		catch (Exception ex) {
 			ex.printStackTrace();
 		}
-	}
+	}*/
 }
