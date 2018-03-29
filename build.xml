@@ -13,7 +13,7 @@
         </javac>
     </target>
 
-    <target name="jar">
+    <target name="jar" depends="compile">
         <fileset id="lib.jars" dir="lib" includes="*.jar" />
         <mkdir dir="build/jar"/>
         <jar destfile="build/jar/ManagementSystem.jar" basedir="build/classes">
