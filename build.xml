@@ -14,8 +14,9 @@
     </target>
 
     <target name="jar">
+        <fileset id="lib.jars" dir="lib" includes="*.jar" />
         <mkdir dir="build/jar"/>
-        <zipgroupfileset dir="lib" includes="junit-4.10.jar" />
+        <zipgroupfileset refid="lib.jars" />
         <jar destfile="build/jar/ManagementSystem.jar" basedir="build/classes">
             <manifest>
                 <attribute name="TestRunner" value="BMS.TestRunner"/>
