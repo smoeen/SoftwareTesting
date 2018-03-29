@@ -1,0 +1,25 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="BMS" destdir="build/classes"/>
+    </target>
+
+    <target name="jar">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/ManagementSystem.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="TestRunner" value="BMS.TestRunner"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run">
+        <java jar="build/jar/ManagementSystem.jar" fork="true"/>
+    </target>
+
+</project>
