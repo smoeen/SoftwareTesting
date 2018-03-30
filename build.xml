@@ -27,8 +27,8 @@
     <target name="run">
         <java jar="build/jar/ManagementSystem.jar" fork="true">
         <manifest>
-			<mainClass>BMS>TestRunner</mainClass>
-		</manifest>    
+		<mainClass>BMS.TestRunner</mainClass>
+	</manifest>    
         </java>
     </target>
 
