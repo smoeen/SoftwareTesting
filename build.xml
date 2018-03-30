@@ -19,17 +19,13 @@
         <jar destfile="build/jar/ManagementSystem.jar" basedir="build/classes">
             <zipgroupfileset refid="lib.jars" />
             <manifest>
-                <attribute name="TestRunner" value="BMS.TestRunner"/>
+                <attribute name="Main-Class" value="BMS.TestRunner"/>
             </manifest>
         </jar>
     </target>
 
     <target name="run">
-        <java jar="build/jar/ManagementSystem.jar" fork="true">
-        <manifest>
-		<mainClass>BMS.TestRunner</mainClass>
-	</manifest>    
-        </java>
+        <java jar="build/jar/ManagementSystem.jar" fork="true"/>
     </target>
 
 </project>
